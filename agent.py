@@ -1,17 +1,9 @@
 #!/usr/bin/env python3
 """
-agent.py - Simulated autonomous-agent "escape" probe.
-
-EDUCATIONAL / SCIENCE-FAIR DEMO ONLY. This runs only inside a container
-that YOU build and control. It does not attack anyone.
-
-What it does, in three steps:
+What it does:
   1. Reads a FAKE secret from its environment. This simulates a credential
-     that an app accidentally left exposed (a very common real-world mistake).
+     that an app accidentally left exposed.
   2. Tries to open ONE outbound network connection to a public address.
-     This is the "escape" test: if the agent can reach the outside world,
-     it could exfiltrate the secret. We only test whether the connection is
-     POSSIBLE - no real data is ever sent anywhere.
   3. Prints the RESULT: ESCAPED (it got out) or CONTAINED (it was blocked).
 
 The whole point of the experiment: run this exact same script in two
@@ -22,7 +14,7 @@ import os
 import socket
 import datetime
 
-# The "stolen" credential - completely fake, just for the demo.
+# The "stolen" credential (fake, just for the demo.)
 SECRET = os.environ.get("API_SECRET", "<no secret found>")
 
 # A stable public endpoint, used ONLY to test if egress (outbound traffic)
