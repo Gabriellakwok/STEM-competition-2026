@@ -7,8 +7,7 @@ AI agents are given control over companies and data that is meant to be kept pri
 ---
 
 ### Q: Where's the creativity?
-The creativity isn't in the code — it's in the **experiment**. Three original
-design choices make it ours:
+The creativity is in the **experiment**.
 1. **A real LLM agent that decides its own escape attempts** — paired with a
    deterministic probe, so we can both *show the threat* and *measure the defense*
    cleanly. 
