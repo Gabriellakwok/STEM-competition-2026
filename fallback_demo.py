@@ -1,18 +1,4 @@
 #!/usr/bin/env python3
-"""
-fallback_demo.py - NO-INSTALL version of the sandbox-escape demo.
-
-Use this ONLY if Docker isn't ready in time. It shows the exact same idea,
-but be honest with your teacher about the difference:
-
-  - In the DOCKER version, the containment in Trial B is enforced by the
-    operating system. That is the real, scientifically valid test.
-  - In THIS version, Trial B's containment is SIMULATED in software (the
-    script simply refuses to open the socket). It demonstrates the concept
-    but does not prove OS-level enforcement.
-
-Run it with:  python3 fallback_demo.py
-"""
 
 import socket
 import datetime
