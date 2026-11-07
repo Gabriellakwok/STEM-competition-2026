@@ -32,9 +32,3 @@ No. Nothing real is attacked and no data leaves the laptop. The
 "secret" is a fake string that means nothing, and the agent only tests if an outbound
 connection is possible before closing it immediately. 
 
----
-### Q: Why a container (Docker) instead of just a Python flag?
-A Python flag is something the program chooses to obey — an attacker's code can
-ignore it. A container boundary is enforced by the **operating system itself**,
-so even malicious code inside can't cross it. That's the difference between
-"please don't" and "you can't," and it's the core idea of real sandboxing.
