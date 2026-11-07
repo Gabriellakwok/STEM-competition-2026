@@ -72,14 +72,16 @@ ollama pull llama3.2:3b
 ```
 or
 
-```ollama pull llama3.2:1b 
+```
+ollama pull llama3.2:1b 
 ``` 
 
 if it is sluggish.
 
 Then
 
-```docker build -t sandbox-agent-demo .
+```
+docker build -t sandbox-agent-demo .
 ```
 
 Then we run the weak sandbox:
