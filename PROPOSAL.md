@@ -1,6 +1,7 @@
 # Proposal: Can a Hardened Sandbox Stop an AI Agent From Escaping?
 
 **Category:** Cybersecurity / Computer Science
+
 **Team:** Gabriella & Kaye 
 
 ---
