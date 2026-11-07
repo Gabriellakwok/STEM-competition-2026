@@ -21,7 +21,7 @@
 
 
 ---
-## Intro on options:
+## Intro options:
 
 ### Option 1 — Scripted A/B demo (most reliable)
 **Included scripts and tools** : 
