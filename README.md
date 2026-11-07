@@ -61,3 +61,4 @@
 * a stimulation
 * basically useless
 
+## A quick start after reading this: go to the read me files, then run the demos, then read the code if u want
