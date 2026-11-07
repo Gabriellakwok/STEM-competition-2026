@@ -29,6 +29,7 @@
 * `run_demo.sh`
 * `agent.py`
 *  docker desktop
+
 **What it does** :
 
 * a fixed script that follows the same steps every time
@@ -45,6 +46,7 @@
 * docker desktop
 * ollama
 * a downloaded model
+
 **What it does** :
 * a real AI trying to break out
 * Thinks for itself, can vary run to run
@@ -54,6 +56,7 @@
 **Included scripts and tools** : 
 
 * fallback_demo.py
+
 **What it does** :
 * a stimulation
 * basically useless
