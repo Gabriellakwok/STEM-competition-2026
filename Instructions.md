@@ -97,20 +97,28 @@ And the hardened sandbox
 
 And let the agent try to escape each one:
 
-```python3 agent_llm.py --container target-weak
+```
+python3 agent_llm.py --container target-weak
 ```
 
-```python3 agent_llm.py --container target-hardened
+```
+python3 agent_llm.py --container target-hardened
 ```
 
 Clean up when done:
 
-```docker rm -f target-weak target-hardened
+```
+docker rm -f target-weak target-hardened
 ```
 
 ## 3 Emergency backup (meaningless)
 
-```python3 fallback_demo.py
+INSTALL PYTHON using brew or smth
+
+Then
+
+```
+python3 fallback_demo.py
 ```
 
 
