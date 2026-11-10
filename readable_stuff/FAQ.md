@@ -20,8 +20,7 @@ The creativity is in the **experiment**.
 ---
 
 ### Q: How will this help us stand out?
-Most students demo one side — either an attack or a defense. We show the full
-loop: I **build the escape** *and* Kaye **designs the defense**, then **show** the result with a graph. A surprising, measured
+Most students demo one side — either an attack or a defense. We show the full procedure, isolated: I **build the escape** *and* Kaye **designs the defense**, then **show** the result with a graph. A surprising, measured
 result that a judge can see in one chart can stand out (hopefully).
 
 ---
